@@ -1,0 +1,117 @@
+### C++
+# Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Debug files
+*.dSYM/
+*.idb
+*.pdb
+
+### Objective-C
+# Xcode user settings
+xcuserdata/
+
+# Xcode build data
+DerivedData/
+
+# Obj-C/Swift specific
+*.hmap
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+### Windows
+# Windows thumbnail cache files
+Thumbs.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+### VS Code
+# VSCode settings (keep shared configuration)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+.cproject
+simulations/results
+out
+src/disserprotocol
+simulations/.qtenvrc
+.mcp.json
+.claude/claude_mcp_config.json
+disserprotocol
+disserprotocol_dbg
+src/disserprotocol_dbg
+.claude/claude_mcp_config.json
+.claude/settings.local.json
+simulations/.qtenvrc
+simulations/result/simulation_log.csv
+simulations/result/pdr_results.csv
+simulations/result/raw_results.csv
+simulations/result/*.csv
+simulations/result/*.json
+simulations/result/__pycache__/
+compile_commands.json
+GEMINI.md
+CLAUDE.md
+PROTOCOL_HANDOFF.md
+.claude/
+.roo/
+.gemini/
+.vscode/
+.gemini/skills/ned-architect/SKILL.md
+.gemini/skills/simulation-debugger/SKILL.md
+.gemini/settings.json
+.cache/*
+
+.worktrees/
+simulations/*.log
+simulations/*.csv
+simulations/*.txt
+redesign
+simulations/result/final_comparison.txt
+simulations/result/*.log
+build.log
