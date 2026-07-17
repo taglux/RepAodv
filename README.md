@@ -174,3 +174,28 @@ bash run_benchmarks.sh
 ```bash
 python3 simulations/result/analyze_log.py simulations/result/simulation_log.csv
 ```
+
+---
+
+## 10. Лицензия и сторонние компоненты
+
+Copyright © 2026 taglux.
+
+Исходный код REP-AODV распространяется на условиях [GNU Lesser General Public License v3.0 or later](LICENSE).
+
+Проект использует внешние компоненты, которые не входят в состав этого репозитория и распространяются на собственных условиях:
+
+* [INET Framework 4.5.4](https://github.com/inet-framework/inet/tree/v4.5.4) — GNU Lesser General Public License v3.0 or later.
+* [OMNeT++ 6.x](https://omnetpp.org/) — Academic Public License; для коммерческого применения разработчики предлагают OMNEST.
+
+Права на INET Framework, OMNeT++ и связанные компоненты принадлежат их соответствующим правообладателям.
+
+---
+
+## 11. Цитирование
+
+При использовании реализации, результатов моделирования или материалов репозитория в исследовательской работе рекомендуется ссылаться на проект:
+
+> taglux. REP-AODV: репутационный протокол маршрутизации для MANET [Программное обеспечение]. 2026. URL: https://github.com/taglux/RepAodv
+
+Машиночитаемые метаданные находятся в файле [CITATION.cff](CITATION.cff). GitHub использует их в меню **Cite this repository** для формирования ссылки в нескольких библиографических форматах.
