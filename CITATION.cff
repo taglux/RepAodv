@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Если вы используете это программное обеспечение в исследовании, пожалуйста, процитируйте его с помощью приведённых ниже метаданных."
+title: "REP-AODV: репутационный протокол маршрутизации для MANET"
+type: software
+authors:
+  - name: "taglux"
+repository-code: "https://github.com/taglux/RepAodv"
+url: "https://github.com/taglux/RepAodv"
+license: "LGPL-3.0-or-later"
+abstract: >-
+  Исследовательская реализация репутационного протокола маршрутизации
+  для беспроводных самоорганизующихся сетей MANET на базе AODV,
+  Байесовской модели доверия и механизма эстафетного подтверждения 2ACK.
+keywords:
+  - MANET
+  - AODV
+  - routing
+  - reputation system
+  - trust model
+  - blackhole attack
+  - OMNeT++
+  - INET
