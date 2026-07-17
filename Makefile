@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for redesign
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep -X tests -I /home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src -L /home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src -lINET
+#  opp_makemake -f --deep -X tests -I ../inet-4.5.4/src -L ../inet-4.5.4/src -lINET
 #
 
 # Name of target to be created (-o option)
@@ -17,13 +17,13 @@ USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(QTENV_LIBS) $(CMDENV_LIBS)
 #USERIF_LIBS = $(QTENV_LIBS)
 
 # C++ include paths (with -I)
-INCLUDE_PATH = -I/home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src
+INCLUDE_PATH = -I../inet-4.5.4/src
 
 # Additional object and library files to link with
 EXTRA_OBJS =
 
 # Additional libraries (-L, -l options)
-LIBS = $(LDFLAG_LIBPATH)/home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src  -lINET
+LIBS = $(LDFLAG_LIBPATH)../inet-4.5.4/src  -lINET
 
 # Output directory
 PROJECT_OUTPUT_DIR = out
@@ -59,7 +59,7 @@ include $(CONFIGFILE)
 # Simulation kernel and user interface libraries
 OMNETPP_LIBS = $(OPPMAIN_LIB) $(USERIF_LIBS) $(KERNEL_LIBS) $(SYS_LIBS)
 ifneq ($(PLATFORM),win32)
-LIBS += -Wl,-rpath,$(abspath /home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src)
+LIBS += -Wl,-rpath,$(abspath ../inet-4.5.4/src)
 endif
 
 COPTS = $(CFLAGS) $(IMPORT_DEFINES)  $(INCLUDE_PATH) -I$(OMNETPP_INCL_DIR)
