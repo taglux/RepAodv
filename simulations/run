@@ -1,4 +1,4 @@
 #!/bin/sh
 cd `dirname $0`
-../out/clang-release/redesign -n ".:../src:/home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src" $*
-# for shared lib, use: opp_run -l ../out/clang-release/redesign -n ".:../src:/home/roman/Documents/Study/omnetpp-directory/inet-4.5.4/src" $*
+../out/clang-release/redesign -n ".:../src:../../inet-4.5.4/src" $*
+# for shared lib, use: opp_run -l ../out/clang-release/redesign -n ".:../src:../../inet-4.5.4/src" $*
